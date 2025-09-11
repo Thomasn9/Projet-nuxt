@@ -38,7 +38,7 @@
       <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-40 p-2 shadow-sm">
         <li><NuxtLink to="/lessons/v-bind">Les v-bind</NuxtLink></li>
         <hr>
-        <li><NuxtLink to="/lessons/event-binding">event-binding v-on</NuxtLink></li>
+        <li><NuxtLink to="/lessons/event-binding">Event-binding v-on</NuxtLink></li>
         <hr>
         <li><NuxtLink to="/lesson/v-model">Le V-Model</NuxtLink></li>
         <hr>
@@ -58,11 +58,11 @@
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-soft btn-accent">TP</div>
       <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-40 p-2 shadow-sm">
-        <li><NuxtLink to="/tp">TP 1 : docteur mario !!!</NuxtLink></li>
+        <li><NuxtLink to="/TP/tp1">TP 1 : docteur mario !!!</NuxtLink></li>
         <hr>
-        <li><NuxtLink to="/tp2">TP 2 : V-on 2 !!!</NuxtLink></li>
+        <li><NuxtLink to="/TP/tp2">TP 2 : V-on 2 !!!</NuxtLink></li>
         <hr>
-        <li><NuxtLink to="/tp3">TP 3 : Style Dynamic</NuxtLink></li>
+        <li><NuxtLink to="/TP/tp3">TP 3 : Style Dynamic</NuxtLink></li>
       </ul>
     </div>
 
@@ -70,14 +70,13 @@
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-soft btn-accent">Gaufre-Clicker</div>
       <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-40 p-2 shadow-sm">
-        <li><NuxtLink to="/simple-click">Compteur simple</NuxtLink></li>
+        <li><NuxtLink to="/gaufre-clicker/compteur-bloquer">Compteur bloquer</NuxtLink></li>
       </ul>
     </div>
 
 <!-- =====================================================\\ABOUT//====================================================================== -->
     <NuxtLink to="/about" class="btn btn-soft btn-accent">About</NuxtLink>
   </div>
-
   <hr>
 </template>
 
