@@ -33,14 +33,44 @@
     <div class="card bg-base-100 w-90 shadow-sm">
       <figure>
         <img
+          src="/nuxt.png"
+          alt="site nuxt" />
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title">Doc Nuxt 4</h2>
+        <p>Documentation de Nuxt</p>
+        <div class="card-actions justify-end">
+          <a href="https://ui4.nuxt.com/" target="_blank" class="btn btn-primary">accès au site</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card bg-base-100 w-90 shadow-sm">
+      <figure>
+        <img
           src="/vue.png"
           alt="Site vue" />
       </figure>
       <div class="card-body">
-        <h2 class="card-title">Site doc vue</h2>
-        <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+        <h2 class="card-title">Doc Vue</h2>
+        <p>Documentation et syntax Vue</p>
         <div class="card-actions justify-end">
           <a href="https://vuejs.org/" target="_blank" class="btn btn-primary">accès au site</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card bg-base-100 w-90 shadow-sm">
+      <figure>
+        <img
+          src="/codepen.png"
+          alt="site nuxt" />
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title">Codepen</h2>
+        <p>Template pour pages diverses</p>
+        <div class="card-actions justify-end">
+          <a href="https://ui4.nuxt.com/" target="_blank" class="btn btn-primary">accès au site</a>
         </div>
       </div>
     </div>
