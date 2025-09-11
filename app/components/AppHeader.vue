@@ -10,25 +10,25 @@
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-soft btn-accent">Les Exos</div>
       <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-40 p-2 shadow">
-        <li><NuxtLink to="/exo">Exos 1 : déclaration des types</NuxtLink></li>
+        <li><NuxtLink to="/exo/exo1">Exos 1 : déclaration des types</NuxtLink></li>
         <hr>
-        <li><NuxtLink to="/exo2">Exos 2 : random nom de livre</NuxtLink></li>
+        <li><NuxtLink to="/exo/exo2">Exos 2 : random nom de livre</NuxtLink></li>
         <hr>
-        <li><NuxtLink to="/exo3">Exos 3 : Bouton + et -</NuxtLink></li>
+        <li><NuxtLink to="/exo/exo3">Exos 3 : Bouton + et -</NuxtLink></li>
         <hr>
-        <li><NuxtLink to="/exo4">Exos 4 : Bouton + et - avec fonction</NuxtLink></li>
+        <li><NuxtLink to="/exo/exo4">Exos 4 : Bouton + et - avec fonction</NuxtLink></li>
         <hr>
-        <li><NuxtLink to="/exo5">Exos 5 : Watcher</NuxtLink></li>
+        <li><NuxtLink to="/exo/exo5">Exos 5 : Watcher</NuxtLink></li>
         <hr>
-        <li><NuxtLink to="/exo6">Exos 6 : Class dynamic</NuxtLink></li>
+        <li><NuxtLink to="/exo/exo6">Exos 6 : Class dynamic</NuxtLink></li>
         <hr>
-        <li><NuxtLink to="/exo6v2">Exos 6 v2 : Class dynamic</NuxtLink></li>
+        <li><NuxtLink to="/exo/exo6v2">Exos 6 v2 : Class dynamic</NuxtLink></li>
         <hr>
-        <li><NuxtLink to="/exo6v3">Exos 6 v3 : Style dynamic</NuxtLink></li>
+        <li><NuxtLink to="/exo/exo6v3">Exos 6 v3 : Style dynamic</NuxtLink></li>
         <hr>
-        <li><NuxtLink to="/exo7">Exos 7 : V-if</NuxtLink></li>
+        <li><NuxtLink to="/exo/exo7">Exos 7 : V-if</NuxtLink></li>
         <hr>
-        <li><NuxtLink to="/exo8">Exos 8 : V-for</NuxtLink></li>
+        <li><NuxtLink to="/exo/exo8">Exos 8 : V-for</NuxtLink></li>
       </ul>
     </div>
 
@@ -36,23 +36,21 @@
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-soft btn-accent">Lessons</div>
       <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 w-40 p-2 shadow-sm">
-        <li><NuxtLink to="/lesson1">texte interpolation</NuxtLink></li>
+        <li><NuxtLink to="/lessons/v-bind">Les v-bind</NuxtLink></li>
         <hr>
-        <li><NuxtLink to="/lesson2">atribut-binding</NuxtLink></li>
+        <li><NuxtLink to="/lessons/event-binding">event-binding v-on</NuxtLink></li>
         <hr>
-        <li><NuxtLink to="/lesson3">event-binding</NuxtLink></li>
+        <li><NuxtLink to="/lesson/v-model">Le V-Model</NuxtLink></li>
         <hr>
-        <li><NuxtLink to="/lesson4">Le V-Model</NuxtLink></li>
+        <li><NuxtLink to="/lessons/text-interpolation">Text interpolation</NuxtLink></li>
         <hr>
-        <li><NuxtLink to="/lesson5">Les Computed Properties</NuxtLink></li>
+        <li><NuxtLink to="/lessons/computed-properties">Les Computed Properties</NuxtLink></li>
         <hr>
-        <li><NuxtLink to="/lesson6">Les Watchers</NuxtLink></li>
+        <li><NuxtLink to="/lessons/watchers">Les Watchers</NuxtLink></li>
         <hr>
-        <li><NuxtLink to="/lesson7">Dynamic-styling</NuxtLink></li>
+        <li><NuxtLink to="/lessons/dynamic-styling">Dynamic-styling</NuxtLink></li>
         <hr>
-        <li><NuxtLink to="/lesson8">Dynamic-styling Type Script</NuxtLink></li>
-        <hr>
-        <li><NuxtLink to="/lesson9">Conditional-rendering</NuxtLink></li>
+        <li><NuxtLink to="/lessons/conditional-rendering">Conditional-rendering</NuxtLink></li>
       </ul>
     </div>
 
