@@ -70,7 +70,7 @@
         <h2 class="card-title">Codepen</h2>
         <p>Template pour pages diverses</p>
         <div class="card-actions justify-end">
-          <a href="https://ui4.nuxt.com/" target="_blank" class="btn btn-primary">accès au site</a>
+          <a href="https://codepen.io/trending" target="_blank" class="btn btn-primary">accès au site</a>
         </div>
       </div>
     </div>
