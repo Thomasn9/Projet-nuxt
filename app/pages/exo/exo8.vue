@@ -12,7 +12,8 @@
             <hr class="my-4" />
             <!-- ici on fait si le tableau film a un élément on affiche le tableau de films -->
             <ol>
-                <li v-if="tabFilms[0]" v-for="element, index in tabFilms" @click="tabFilms.value.splice(index,1)" class="text-xl font-semibold mb-2">Films ajouté : {{ `${index} . ${element}` }}</li>
+                <!-- le splice supprime l'index 1 au clique -->
+                <li v-if="tabFilms[0]" v-for="element, index in tabFilms" @click="tabFilms.splice(index,1)" class="text-xl font-semibold mb-2">Films ajouté : {{ `${index} . ${element}` }}</li>
                     <!-- ici le else affiche le message si il ny as aucun films dans le tableau -->
                 <li v-else class="text-gray-500">Pas encore de films dans votre liste ? Veuillez en ajouter un.</li>
             </ol>

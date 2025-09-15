@@ -23,6 +23,7 @@
                 <li><NuxtLink to="/exo/exo6v3">Exos 6 v3 : Style dynamic</NuxtLink></li>
                 <li><NuxtLink to="/exo/exo7">Exos 7 : V-if</NuxtLink></li>
                 <li><NuxtLink to="/exo/exo8">Exos 8 : V-for</NuxtLink></li>
+                <li><NuxtLink to="/exo/exo8v2">Exos 8 v2 : V-for correction</NuxtLink></li>
               </ul>
             </details>
           </li>
@@ -83,6 +84,7 @@
               <li><NuxtLink to="/exo/exo6v3">Exos 6 v3 : Style dynamic</NuxtLink></li>
               <li><NuxtLink to="/exo/exo7">Exos 7 : V-if</NuxtLink></li>
               <li><NuxtLink to="/exo/exo8">Exos 8 : V-for</NuxtLink></li>
+              <li><NuxtLink to="/exo/exo8v2">Exos 8 v2 : V-for correction</NuxtLink></li>
             </ul>
           </details>
         </li>
