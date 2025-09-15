@@ -55,7 +55,7 @@ const lesAmis = ref([
         name: "JAROD",
         phone: '+338765477',
         email: 'jAROD@seagal.com',
-        premium: true
+        premium: false
     }
 ]);
 </script>
