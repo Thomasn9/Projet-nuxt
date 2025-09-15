@@ -2,10 +2,15 @@
   <div>
     <h1>ici cest le about !!</h1>
   </div>
+
+  <HelloWorld foo="on passe une props pour FOO" username="On passe une props pour username" />
+  <HelloWorld foo="cuoucou un deuxieme props" username="On passe une props pour username" />
+
 </template>
 
 <script setup lang='js'>
 import { computed, watch, onMounted, onUpdated, onBeforeUnmount } from 'vue'
+import HelloWorld from './exo/exo10.vue';
 
 const props = defineProps({
   // v-model
