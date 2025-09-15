@@ -8,7 +8,7 @@
           </svg>
         </div>
         <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-          <li><a>Item 1</a></li>
+          <li><a>Sommaire</a></li>
           <li>
             <details>
               <summary>Les Exos</summary>
@@ -39,6 +39,7 @@
                 <li><NuxtLink to="/lessons/watchers">Les Watchers</NuxtLink></li>
                 <li><NuxtLink to="/lessons/dynamic-styling">Dynamic-styling</NuxtLink></li>
                 <li><NuxtLink to="/lessons/conditional-rendering">Conditional-rendering</NuxtLink></li>
+                <li><NuxtLink to="/lessons/lifecycle">Cycle de vie des composants</NuxtLink></li>
               </ul>
             </details>
           </li>
@@ -100,6 +101,7 @@
               <li><NuxtLink to="/lessons/watchers">Les Watchers</NuxtLink></li>
               <li><NuxtLink to="/lessons/dynamic-styling">Dynamic-styling</NuxtLink></li>
               <li><NuxtLink to="/lessons/conditional-rendering">Conditional-rendering</NuxtLink></li>
+              <li><NuxtLink to="/lessons/lifecycle">Cycle de vie des composants</NuxtLink></li>
             </ul>
           </details>
         </li>
