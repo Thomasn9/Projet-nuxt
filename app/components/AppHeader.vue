@@ -28,7 +28,8 @@
                 <li><NuxtLink to="/exo/exo9V2">Exos 9 v2 : API pokemon et météo correction</NuxtLink></li>
                 <li><NuxtLink to="/exo/exo10">Exos 10 : Props</NuxtLink></li>
                 <li><NuxtLink to="/exo/exo11">Exos 11 : Props 2</NuxtLink></li>
-                <li><NuxtLink to="/exo/exo12">Exos 12 : Props 3</NuxtLink></li>
+                <li><NuxtLink to="/exo/exo12">Exos 12 : Props - Emits </NuxtLink></li>
+                <li><NuxtLink to="/exo/exo13">Exos 13 : Modification Props</NuxtLink></li>
               </ul>
             </details>
           </li>
@@ -97,7 +98,8 @@
               <li><NuxtLink to="/exo/exo9V2">Exos 9 v2 : API pokemon et météo correction</NuxtLink></li>
               <li><NuxtLink to="/exo/exo10">Exos 10 : Props</NuxtLink></li>
               <li><NuxtLink to="/exo/exo11">Exos 11 : Props 2</NuxtLink></li>
-              <li><NuxtLink to="/exo/exo11">Exos 12 : Props 3</NuxtLink></li>
+              <li><NuxtLink to="/exo/exo12">Exos 12 : Props - Emits </NuxtLink></li>
+              <li><NuxtLink to="/exo/exo13">Exos 13 : Modification Props</NuxtLink></li>
             </ul>
           </details>
         </li>
