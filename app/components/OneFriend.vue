@@ -23,6 +23,13 @@
                     <span class="badge badge-outline badge-accent">📧</span>
                     {{ unAmiMail }}
                 </p>
+
+                <button class="flex items-center gap-2 px-4 py-2 rounded-full border border-red-500 text-red-500 hover:bg-red-500 hover:text-white transition-colors duration-200" @click="supp">
+                    <span class="text-sm">🗑️</span>
+                    
+                </button>
+
+
             </div>
 
             <!-- <div class="card-actions justify-end mt-4">
@@ -32,7 +39,14 @@
     </div>
 </template>
 
-<script setup lang="ts">
+<script setup lang="js">
+
+const emit = defineEmits(['supprimer'])
+
+function supp(){
+    emit("supprimer",props.id)
+}
+
 const props = defineProps({
     id: {
         type: String,
