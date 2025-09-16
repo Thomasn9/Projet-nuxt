@@ -3,7 +3,7 @@
         <div class="card-body">
             <h2 class="card-title text-primary">
                 👤 {{ unAmiName }}
-                <div class="badge" :class="premium ? 'badge-success' : 'badge-ghost'">
+                <div class="badge" :class="premium ? 'badge-success' : 'badge-primary'">
                     {{ premium ? 'Premium' : 'Standard' }}
                 </div>
 
