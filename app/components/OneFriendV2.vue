@@ -7,8 +7,7 @@
                     {{ premium ? 'Premium' : 'Standard' }}
                 </div>
 
-                <button class="btn btn-active btn-secondary" @click="modif" > Changer status</button>
-                
+                <button class="btn btn-active btn-secondary" @click="modif" > Changer status</button>               
             </h2>
 
             <div class="space-y-2 text-base-content">
