@@ -98,6 +98,8 @@
             </div>
         </div>
     </div>
+    <h2>Ce 2e graphique est disponible dans components BarChartDynamic.vue</h2>
+    <BarChartDynamic></BarChartDynamic>
 </template>
 
 <script setup lang="ts">
