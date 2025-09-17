@@ -50,6 +50,7 @@
                 <li><NuxtLink to="/lessons/props">Communication component PROPS parents -> enfants</NuxtLink></li>
                 <li><NuxtLink to="/lessons/emit">Communication component EMITS enfant -> parents</NuxtLink></li>
                 <li><NuxtLink to="/lessons/chartjs">Chart-js</NuxtLink></li>
+                <li><NuxtLink to="/lessons/pinia">Pinia.js</NuxtLink></li>
               </ul>
             </details>
           </li>
@@ -125,6 +126,7 @@
               <li><NuxtLink to="/lessons/props">Communication component PROPS parents -> enfants</NuxtLink></li>
               <li><NuxtLink to="/lessons/emit">Communication component EMITS enfant -> parents</NuxtLink></li>
               <li><NuxtLink to="/lessons/chartjs">Chart-js</NuxtLink></li>
+              <li><NuxtLink to="/lessons/pinia">Pinia.js</NuxtLink></li>
             </ul>
           </details>
         </li>

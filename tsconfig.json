@@ -1,9 +1,9 @@
+// tsconfig.json
 {
-  // https://nuxt.com/docs/guide/concepts/typescript
   "files": [],
   "references": [
     {
-      "path": "./.nuxt/tsconfig.app.json"
+      "path": "./tsconfig.app.json"  // 👈 Changez ceci
     },
     {
       "path": "./.nuxt/tsconfig.server.json"

@@ -61,43 +61,50 @@
                 Exemple minimal pour afficher un graphique en barres :
             </p>
 
-            <pre class="bg-base-300 p-3 rounded text-sm overflow-x-auto">
-  <code>
-  &lt;script setup&gt;
-  import {
-    Chart as ChartJS,
-    Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale
-  } from 'chart.js'
-  import { Bar } from 'vue-chartjs'
-  
-  // Enregistrer les composants Chart.js
-  ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale)
-  
-  const chartData = {
-    labels: ['Jan', 'Fév', 'Mar'],
-    datasets: [{ label: 'Ventes', data: [40, 55, 70], backgroundColor: '#3b82f6' }]
-  }
-  
-  const chartOptions = { responsive: true, maintainAspectRatio: false }
-  &lt;/script&gt;
-  
-  &lt;template&gt;
-    &lt;div class="h-64"&gt;
-      &lt;Bar :data="chartData" :options="chartOptions" /&gt;
-    &lt;/div&gt;
-  &lt;/template&gt;
-  </code>
-  </pre>
+        <pre class="bg-base-300 p-3 rounded text-sm overflow-x-auto">
+<code>
+&lt;script setup&gt;
+import {
+Chart as ChartJS,
+Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale
+} from 'chart.js'
+import { Bar } from 'vue-chartjs'
 
-  <BarChartDemo></BarChartDemo>
-            <div class="alert alert-success">
-                <span>
-                    ✅ Avec <strong>vue-chartjs</strong>, vous gagnez du temps et profitez d’une intégration
-                    complète avec la réactivité de Vue.
-                </span>
-            </div>
+// Enregistrer les composants Chart.js
+ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale)
+
+const chartData = {
+labels: ['Jan', 'Fév', 'Mar'],
+datasets: [{ label: 'Ventes', data: [40, 55, 70], backgroundColor: '#3b82f6' }]
+}
+
+const chartOptions = { responsive: true, maintainAspectRatio: false }
+&lt;/script&gt;
+
+&lt;template&gt;
+&lt;div class="h-64"&gt;
+    &lt;Bar :data="chartData" :options="chartOptions" /&gt;
+&lt;/div&gt;
+&lt;/template&gt;
+</code>
+</pre>
+
+<BarChartDemo></BarChartDemo>
+        <div class="alert alert-success">
+            <span>
+                ✅ Avec <strong>vue-chartjs</strong>, vous gagnez du temps et profitez d’une intégration
+                complète avec la réactivité de Vue.
+            </span>
         </div>
     </div>
+<<<<<<< Updated upstream
+=======
+</div>
+<h2>Ce 2e graphique est disponible dans components BarChartDynamic.vue</h2>
+<BarChartDynamic></BarChartDynamic>
+<h2>ce 3e gtaphique vient du components radarCharDynamic</h2>
+<RadarChartDynamic></RadarChartDynamic>
+>>>>>>> Stashed changes
 </template>
 
 <script setup lang="ts">

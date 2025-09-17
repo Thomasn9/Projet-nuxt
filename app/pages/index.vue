@@ -63,10 +63,43 @@
     <div class="card bg-base-100 w-90 shadow-sm">
       <figure>
         <img
+          src="/charte.png"
+          alt="site nuxt" />
+      </figure>
+      <div class="card-body">
+<<<<<<< Updated upstream
+=======
+        <h2 class="card-title">Chart-JS</h2>
+        <p>Template pour avoir des graphiques en VUE</p>
+        <div class="card-actions justify-end">
+          <a href="https://vue-chartjs.org/guide/" target="_blank" class="btn btn-primary">accès au site</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card bg-base-100 w-90 shadow-sm">
+      <figure>
+        <img
+          src="/pinia.png"
+          alt="site nuxt" />
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title">Pinia-JS</h2>
+        <p>Gestionnaire de store</p>
+        <div class="card-actions justify-end">
+          <a href="https://pinia.vuejs.org/" target="_blank" class="btn btn-primary">accès au site</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card bg-base-100 w-90 shadow-sm">
+      <figure>
+        <img
           src="/codepen.png"
           alt="site nuxt" />
       </figure>
       <div class="card-body">
+>>>>>>> Stashed changes
         <h2 class="card-title">Codepen</h2>
         <p>Template pour pages diverses</p>
         <div class="card-actions justify-end">
