@@ -9,7 +9,9 @@
     <template>
     <h1>Ici La page des Copains ! </h1>
     <h2>Cette exercices fonctionne avec le fichier exo 13 et le component OneFriendV2.vue et le component AddOneFriend.vue</h2>
-    <AddOneFriend></AddOneFriend>
+    <AddOneFriend v-on:ajoutAmis="nouveauPote">
+
+    </AddOneFriend>
 
 
     <!-- On arrive a l'utiliser une fois on va le répéter plusieurs fois (cf autant de fois qu'on a des elements dans le tableau) -->
@@ -76,5 +78,10 @@ function modifier(idUser){
     const leGarsATrouver = lesAmis.value.find((leBlaze) => leBlaze.id === idUser);
     leGarsATrouver.premium = !leGarsATrouver.premium;
     console.log(leGarsATrouver.premium);
+}
+
+function nouveauPote(amis){
+    console.log(amis)
+    lesAmis.value.push(amis)
 }
 </script>

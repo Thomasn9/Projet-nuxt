@@ -28,7 +28,7 @@
                             <input type="email" placeholder="Votre EMAIL" class="input input-bordered" v-model = "emailFriend" />
                         </div>
 
-                        <button class="btn btn-primary mt-4">Ajouter</button>
+                        <button class="btn btn-primary mt-4" @:click="ajout">Ajouter</button>
                         
                     </div>
                 </div>
@@ -49,8 +49,10 @@ const emit = defineEmits(['ajoutAmis'])
 function ajout(){
     emit('ajoutAmis',{
         name:nameFriend.value,
-        tel:telFriend.value,
-        email:emailFriend.value
+        id:Math.random().toString(),
+        phone:telFriend.value,
+        email:emailFriend.value,
+        premium : false
     }
     )
 }
