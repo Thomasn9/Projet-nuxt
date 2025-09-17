@@ -1,15 +1,19 @@
 // nuxt.config.ts
-// nuxt.config.ts (avec @tailwindcss/vite)
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
   css: ["~/assets/app.css"],
-  
+
+  modules: [
+    '@pinia/nuxt',
+    '@pinia-plugin-persistedstate/nuxt',
+  ],
+
   vite: {
     plugins: [tailwindcss()],
   },
 
-  // Configuration de l'application
+  // Configuration de l'application (virgule ajoutée)
   app: {
     head: {
       title: 'Thomas-Nuxt',
