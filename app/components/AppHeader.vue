@@ -47,8 +47,9 @@
                 <li><NuxtLink to="/lessons/dynamic-styling">Dynamic-styling</NuxtLink></li>
                 <li><NuxtLink to="/lessons/conditional-rendering">Conditional-rendering</NuxtLink></li>
                 <li><NuxtLink to="/lessons/lifecycle">Cycle de vie des composants</NuxtLink></li>
-                <li><NuxtLink to="/lessons/props">Communication component parents -> enfants</NuxtLink></li>
-                <li><NuxtLink to="/lessons/emit">Communication component enfant -> parents</NuxtLink></li>
+                <li><NuxtLink to="/lessons/props">Communication component PROPS parents -> enfants</NuxtLink></li>
+                <li><NuxtLink to="/lessons/emit">Communication component EMITS enfant -> parents</NuxtLink></li>
+                <li><NuxtLink to="/lessons/chartjs">Chart-js</NuxtLink></li>
               </ul>
             </details>
           </li>
@@ -121,8 +122,9 @@
               <li><NuxtLink to="/lessons/dynamic-styling">Dynamic-styling</NuxtLink></li>
               <li><NuxtLink to="/lessons/conditional-rendering">Conditional-rendering</NuxtLink></li>
               <li><NuxtLink to="/lessons/lifecycle">Cycle de vie des composants</NuxtLink></li>
-              <li><NuxtLink to="/lessons/props">Communication component parents -> enfants</NuxtLink></li>
-              <li><NuxtLink to="/lessons/emit">Communication component enfant -> parents</NuxtLink></li>
+              <li><NuxtLink to="/lessons/props">Communication component PROPS parents -> enfants</NuxtLink></li>
+              <li><NuxtLink to="/lessons/emit">Communication component EMITS enfant -> parents</NuxtLink></li>
+              <li><NuxtLink to="/lessons/chartjs">Chart-js</NuxtLink></li>
             </ul>
           </details>
         </li>
