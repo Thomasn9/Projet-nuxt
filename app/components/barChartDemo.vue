@@ -28,20 +28,15 @@ import { Bar } from 'vue-chartjs'
  * 2. Enregistrer les modules Chart.js (obligatoire)
  */
 ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale)
-
-// 2️⃣ Valeur dynamique
-const dynamicData = ref(1200)
-
 /**
  * 3. Définir les données du graphique
  */
-// 3️⃣ chartData recalculé automatiquement avec computed dès q'une des dépendances (variables) change ici la ref dynamicData
 const chartData = {
     labels: ['Janvier', 'Février', 'Mars', 'Avril', 'Mai'],
     datasets: [
         {
             label: 'Ventes (€)',
-            data: [dynamicData.value,1200, 1500, 900, 2000, 1800],
+            data: [1200, 1500, 900, 2000, 1800],
             backgroundColor: '#3b82f6' // couleur bleue Tailwind/DaisyUI
         }
     ]
