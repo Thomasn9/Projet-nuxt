@@ -8,12 +8,12 @@
             <div class="space-y-3">
                 <div class="flex justify-between items-center py-2 border-b border-base-200">
                     <span class="font-medium text-base-content">Nom :</span>
-                    <span class="text-base-content">{{ nom }}</span>
+                    <span class="text-base-content">{{sonNom}}</span>
                 </div>
                 
                 <div class="flex justify-between items-center py-2 border-b border-base-200">
-                    <span class="font-medium text-base-content">Téléphone :</span>
-                    <span class="text-base-content">{{ telephone }}</span>
+                    <span class="font-medium text-base-content">Age :</span>
+                    <span class="text-base-content">{{sonAge}} ans</span>
                 </div>
             </div>
         </div>
@@ -21,6 +21,17 @@
 </template>
 
 <script setup lang="js">
+
+const props = defineProps({
+    sonNom: {
+        type: String,
+        required: true,
+    },
+    sonAge: {
+        type: String,
+        required: true,
+    },
+})
 
 
 </script>
