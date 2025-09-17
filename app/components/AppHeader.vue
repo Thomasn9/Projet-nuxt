@@ -59,6 +59,7 @@
                 <li><NuxtLink to="/TP/tp1">TP 1 : docteur mario !!!</NuxtLink></li>
                 <li><NuxtLink to="/TP/tp2">TP 2 : V-on 2 !!!</NuxtLink></li>
                 <li><NuxtLink to="/TP/tp3">TP 3 : Style Dynamic</NuxtLink></li>
+                <li><NuxtLink to="/TP/tp4">TP 4 : Props emit</NuxtLink></li>
               </ul>
             </details>
           </li>

@@ -12,7 +12,7 @@ const cumul = ref(0)
 const valeurClick = 1
 
 function augmentation(){
-    cumul.value += valeurClick
+    cumul.value += valeurClick;
     console.log(cumul.value)
 }
 </script>
