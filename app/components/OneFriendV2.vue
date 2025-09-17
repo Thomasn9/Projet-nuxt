@@ -63,7 +63,7 @@ const props = defineProps({
         required: true,
     },
     unAmiPhone: {
-        type: String,
+        type: String || Number,
         required: true,
     },
     unAmiMail: {
