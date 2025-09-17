@@ -4,7 +4,7 @@
             <!-- Section Informations personnelles -->
             <div class="card bg-base-100 shadow-xl mb-8">
                 <div class="card-body">
-                    <h1 class="card-title text-3xl mb-6">Composant formulaire d'édition</h1>
+                    <h2 class="card-title text-3xl mb-6">Composant formulaire d'édition</h2>
                     
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
                         <div class="form-control">
@@ -37,9 +37,7 @@ const nouveauAge = ref('');
 const emit = defineEmits(['modif'])
 
 function modifier(){
-    emit("modif",{
-        sonNom:nouveauName.value
-    })
+    emit("modif",nouveauName.value,nouveauAge.value)
 }
 
 

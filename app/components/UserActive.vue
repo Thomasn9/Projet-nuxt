@@ -26,10 +26,12 @@ const props = defineProps({
     sonNom: {
         type: String,
         required: true,
+        default:"jean"
     },
     sonAge: {
         type: String,
         required: true,
+        default:"12"
     },
 })
 

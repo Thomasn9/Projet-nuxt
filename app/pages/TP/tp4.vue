@@ -1,12 +1,13 @@
 <template>
-<UserActive
-:sonNom="User.nom"
-:sonAge="User.age">
-</UserActive>
-<UserData
-v-on:modif = modification>
+    <h1>Ce TP fonctionne avec les component UserData.vue / USerActive. vue / tp4.vue</h1>
+    <UserActive
+    :sonNom="User.nom"
+    :sonAge="User.age">
+    </UserActive>
+    <UserData
+    v-on:modif = modification>
 
-</UserData>
+    </UserData>
 
 </template>
 
@@ -20,9 +21,13 @@ const User = ref(
 )
 
 
-function modification(nom){
-    console.log(nom)
-    User.value
+function modification(nomEvent, ageEvent){
+    console.log(nomEvent)
+    User.value = {
+        nom: nomEvent,
+        age: ageEvent
+    }
+    
 }
 
 </script>
