@@ -9,6 +9,13 @@ export default defineNuxtConfig({
     // '@pinia-plugin-persistedstate/nuxt',
   ],
 
+  runtimeConfig: {
+    public: {
+      supabaseUrl: process.env.SUPABASE_URL,
+      supabaseKey: process.env.SUPABASE_KEY
+    }
+  },
+
   vite: {
     plugins: [tailwindcss()],
   },

@@ -51,6 +51,7 @@
                 <li><NuxtLink to="/lessons/emit">Communication component EMITS enfant -> parents</NuxtLink></li>
                 <li><NuxtLink to="/lessons/chartjs">Chart-js</NuxtLink></li>
                 <li><NuxtLink to="/lessons/pinia">Pinia.js</NuxtLink></li>
+                <li><NuxtLink to="/lessons/supabase">Supabase</NuxtLink></li>
               </ul>
             </details>
           </li>
@@ -127,6 +128,7 @@
               <li><NuxtLink to="/lessons/emit">Communication component EMITS enfant -> parents</NuxtLink></li>
               <li><NuxtLink to="/lessons/chartjs">Chart-js</NuxtLink></li>
               <li><NuxtLink to="/lessons/pinia">Pinia.js</NuxtLink></li>
+              <li><NuxtLink to="/lessons/supabase">Supabase</NuxtLink></li>
             </ul>
           </details>
         </li>
