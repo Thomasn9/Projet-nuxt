@@ -63,6 +63,21 @@
     <div class="card bg-base-100 w-90 shadow-sm">
       <figure>
         <img
+          src="/supabase.png"
+          alt="Site supabase" />
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title">Supabase</h2>
+        <p>Backend-as-a-Service (BaaS)</p>
+        <div class="card-actions justify-end">
+          <a href="https://supabase.com/dashboard/org/apjhclfbmutkjmqmzavb" target="_blank" class="btn btn-primary">accès au site</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card bg-base-100 w-90 shadow-sm">
+      <figure>
+        <img
           src="/charte.png"
           alt="site nuxt" />
       </figure>

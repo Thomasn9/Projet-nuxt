@@ -77,6 +77,7 @@
             </details>
           </li>
           <li><NuxtLink to="/about">About</NuxtLink></li>
+          <li><NuxtLink to="/profil">Profil</NuxtLink></li>
         </ul>
       </div>
       <div id="blocLogo">
@@ -153,6 +154,7 @@
           </details>
         </li>
         <li><NuxtLink to="/about">About</NuxtLink></li>
+        <li><NuxtLink to="/profil">Profil</NuxtLink></li>
       </ul>
     </div>
     <div class="navbar-end">
