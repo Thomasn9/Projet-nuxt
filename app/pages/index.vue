@@ -40,7 +40,7 @@
         <h2 class="card-title">Doc Nuxt 4</h2>
         <p>Documentation de Nuxt</p>
         <div class="card-actions justify-end">
-          <a href="https://ui4.nuxt.com/" target="_blank" class="btn btn-primary">accès au site</a>
+          <a href="https://nuxt.com/" target="_blank" class="btn btn-primary">accès au site</a>
         </div>
       </div>
     </div>
