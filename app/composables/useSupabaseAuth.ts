@@ -55,13 +55,16 @@ user.value = null;
 };
 
 // Surveille la session (reconnexion auto)
-onMounted(async () => {
-const { data } = await $supabase.auth.getSession();
-user.value = data.session?.user || null;
-$supabase.auth.onAuthStateChange((_event: any, session: any) => {
-    user.value = session?.user || null;
-});
-});
+// En Nuxt4 on a un warning
+// Soit on fait ca dans un onMounted des pages soit on fait ca dans un plugin
+//! Mais en fait plus trop besoin vu qu'ensuite on a fait un middleware auth.ts
+// onMounted(async () => {
+//   const { data } = await $supabase.auth.getSession();
+//   user.value = data.session?.user || null;
+//   $supabase.auth.onAuthStateChange((_event: any, session: any) => {
+//     user.value = session?.user || null;
+//   });
+// });
 
 //Récupérer l'utilisateur connecté
 const getUser = async () => {
@@ -69,6 +72,8 @@ const { data } = await $supabase.auth.getUser();
 user.value = data.user;
 return data.user;
 };
+
+// on return un objet avec les méthodes et la variable user (pas sûr que c'est la meilleure façon de faire c'est pour tester, on a getUser de supabase)
 
 return { user, signIn, signUp, signUpWithPseudo, signOut, getUser };
 }

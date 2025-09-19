@@ -12,26 +12,36 @@
             @click="amelioration2" 
             class="btn"
             :disabled="cumul < prixAmelioration2">
-            Amélioration 2 (coût:{{ prixAmelioration2 }} ) - Auto-Click (+{{ valeurAutoClick }}/s)
+            Amélioration 2 (coût:{{ prixAmelioration2 }} ) - Auto-Click (+{{ valeurAutoClick2}}/s)
+        </button>
+        <button 
+            @click="amelioration3" 
+            class="btn"
+            :disabled="cumul < prixAmelioration3">
+            Amélioration 3 (coût:{{ prixAmelioration3 }} ) - Auto-Click (+{{ valeurAutoClick3}}/s)
         </button>
     </div>
 </template>
 
 <script setup lang="js">
-import { ref, onMounted, onUnmounted } from 'vue'
 
 const cumul = ref(0)
 const valeurClick = ref(1)
 
 const prixAmelioration1 = ref(5)
 const prixAmelioration2 = ref(20)
+const prixAmelioration3 = ref(50)
 
-const valeurAutoClick = ref(1)
-const valeurAmelioration2 = ref(5)
+const valeurAutoClick2 = ref(1)
+const valeurAutoClick3 = ref(5)
+
+
+// Valeur de base de l'auto-click
+const autoClickInterval2 = ref(null)
+const autoClickInterval3 = ref(null)
 
 function augmentation(){
     cumul.value += valeurClick.value;
-    console.log(cumul.value)
 }
 
 function amelioration1(){
@@ -46,52 +56,49 @@ function amelioration2(){
     if (cumul.value >= prixAmelioration2.value) {
         cumul.value -= prixAmelioration2.value;
         prixAmelioration2.value = Math.floor(prixAmelioration2.value * 1.5); 
-        valeurAutoClick.value += 1;
-
-        if (valeurAmelioration2.value) {
-        clearInterval(valeurAmelioration2.value);
+        valeurAutoClick2.value += 1; 
+        
+        // Arrêter l'ancien intervalle si il existe
+        if (autoClickInterval2.value) {
+            clearInterval(autoClickInterval2.value);
         }
         
-        //vitesse 
-        valeurAmelioration2.value = setInterval(() => {
-            cumul.value += valeurAutoClick.value;
+        // Démarrer le nouvel intervalle avec la nouvelle valeur
+        autoClickInterval2.value = setInterval(() => {
+            cumul.value += 1;
         }, 1000);
     }
 }
 
-
-// Démarrer l'auto-click automatiquement si déjà acheté
-onMounted(() => {
-    if (valeurAutoClick.value > 1) {
-        startAutoClick();
+function amelioration3(){
+    if (cumul.value >= prixAmelioration3.value) {
+        cumul.value -= prixAmelioration3.value;
+        prixAmelioration3.value = Math.floor(prixAmelioration3.value * 1.5); 
+        valeurAutoClick3.value += 5; 
+        
+        if (autoClickInterval3.value) {
+            clearInterval(autoClickInterval3.value);
+        }
+        
+        // Démarrer le nouvel intervalle avec la nouvelle valeur
+        autoClickInterval3.value = setInterval(() => {
+            cumul.value += 1;
+        }, 1000);
     }
-})
+}
 
-// Nettoyer l'intervalle quand le composant est détruit
+// Nettoyage
 onUnmounted(() => {
-    if (valeurAmelioration2.value) {
-        clearInterval(valeurAmelioration2.value);
+    if (autoClickInterval.value) {
+        clearInterval(autoClickInterval.value);
     }
 })
+
+
+const upgrades = [{
+    name: "la premiere",
+    prixAmelioration: 5,
+    nombreAchat: 0,
+    valeurAmelioration: 1
+}]
 </script>
-
-<style>
-.btn {
-    margin: 5px;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: white;
-}
-
-.btn:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
-}
-
-.btn.active {
-    background-color: #28a745;
-}
-</style>
