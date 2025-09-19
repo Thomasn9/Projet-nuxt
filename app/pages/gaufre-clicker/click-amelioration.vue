@@ -6,7 +6,7 @@
             @click="amelioration1" 
             class="btn"
             :disabled="cumul < prixAmelioration1">
-            Amélioration (coût:{{ prixAmelioration1 }} ) - Click vaut {{ valeurClick }}
+            Amélioration (coût:{{ prixAmelioration1 }} ) - Click vaudra {{ valeurClick + 1 }}
         </button>
     </div>
 </template>

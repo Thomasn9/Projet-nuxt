@@ -73,6 +73,7 @@
                 <li><NuxtLink to="/gaufre-clicker/clique-classique">Compteur simple</NuxtLink></li>
                 <li><NuxtLink to="/gaufre-clicker/compteur-bloquer">Compteur bloquer</NuxtLink></li>
                 <li><NuxtLink to="/gaufre-clicker/click-amelioration">amélioration de click</NuxtLink></li>
+                <li><NuxtLink to="/gaufre-clicker/click-automatique">Click Automatique</NuxtLink></li>
               </ul>
             </details>
           </li>
@@ -150,6 +151,7 @@
               <li><NuxtLink to="/gaufre-clicker/clique-classique">Compteur simple</NuxtLink></li>
               <li><NuxtLink to="/gaufre-clicker/compteur-bloquer">Compteur bloquer</NuxtLink></li>
               <li><NuxtLink to="/gaufre-clicker/click-amelioration">amélioration de click</NuxtLink></li>
+              <li><NuxtLink to="/gaufre-clicker/click-automatique">Click Automatique</NuxtLink></li>
             </ul>
           </details>
         </li>
